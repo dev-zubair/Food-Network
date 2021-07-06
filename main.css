@@ -12,7 +12,7 @@ p{
     line-height: 1.3em;
     text-align: justify;
 }
-.container{
+.flexiable-container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -46,4 +46,27 @@ p{
     background-size: cover;
     margin-left: -5%;
     padding-right: 7%;
+}
+.my-recipies{
+    text-align: center;
+    margin: 0% 10%;
+}
+.one-third{
+    width: 30%;
+    padding: 20px;
+    margin: 3%;
+    border-radius: 20px;
+    /* height: 500px; */
+    box-shadow: 10px 20px 40px gray;
+    box-shadow: 10px 20px 40px grey;
+    text-align: center;
+}
+.one-third img{
+    width: 100%;
+}
+.footer-bg{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
