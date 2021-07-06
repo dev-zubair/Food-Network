@@ -8,11 +8,12 @@ h1{
     line-height: 1.2em;
     font-family: 'Lilita One', cursive;
 }
-/* h2{
+h2{
     font-size: 40px;
-    color: #e3000e;
+    line-height: 1.2em;
     font-family: 'Lilita One', cursive;
-} */
+}
+
 p{
     font-size: 18px;
     line-height: 1.3em;
@@ -44,16 +45,8 @@ p{
 .half-width img{
     width: 80%;
 }
-/* .header-bg{
-    background-image: url(images/hero-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -5%;
-    padding-left: 5%;
-} */
-
 .about-bg{
-    background-image: url(images/shapes/7.png);
+    background-image: url(images/7.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: -5%;
@@ -83,44 +76,50 @@ p{
     width: 100%;
     border-radius: 15px;
 }
-
+.one-third h2{
+    font-size: 28px;
+    line-height: 1.2em;
+    font-family: 'Lilita One', cursive;
+}
 .eshop-bg{
     background-color: #d2322b;
     color: white;
-    padding: 5% 0% 0% 10%;
     margin-top: 100px;
 }
-
-
 #mac-app, #google-app{
     width: 40%;
 }
+.save-up{
+    margin-top: -55px;
+}
 .shop-text{
     text-align: center;
+    margin-top: 50px;
 }
-.location-bg{
-    /* background-image: url(images/promo-11.jpg); */
-    background-image: url(images/banner-4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: -50px;
+.delivery-btn{
+    background-color: #d2322b;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
 }
-.our-location{
-    padding: 10px;
-    margin: 5%;
-    border-radius: 20px;
-    text-align: center;
+.my-card{
+    background-image: url(images/footer-bg.jpg);
 }
-.our-location img{
-    width: 100%;
-    border-radius: 50px 0px;
+.order-bg{
+    background-image: url(images/footer-bg.jpg);
 }
+
 .footer-bg img{
     width: 15%;
 }
 .footer-bg{
     background-image: url(images/footer-bg.jpg);
-    padding: 20px;
+    padding: 25px;
     color: white;
     text-align: center;
+}
+.footer-bg a{
+    color: white;
 }
