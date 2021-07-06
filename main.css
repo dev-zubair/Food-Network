@@ -1,16 +1,25 @@
 body{
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1.2em;
     font-family: 'Lilita One', cursive;
 }
+/* h2{
+    font-size: 40px;
+    color: #e3000e;
+    font-family: 'Lilita One', cursive;
+} */
 p{
     font-size: 18px;
     line-height: 1.3em;
     text-align: justify;
+}
+.word-color{
+    color: #e3000e;
 }
 .flexiable-container{
     display: flex;
@@ -21,8 +30,8 @@ p{
     padding-left: 7%;
 }
 .button-link{
-    /* background-image: linear-gradient(black, red); */
-    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    background-image: linear-gradient(#e3000e, #831619);
+    /* background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%); */
     text-decoration: none;
     padding: 10px 30px;
     color: azure;
@@ -34,10 +43,11 @@ p{
     width: 80%;
 }
 /* .header-bg{
-    background-image: url(images/shapes/7.png);
+    background-image: url(images/hero-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: -5%;
+    padding-left: 5%;
 } */
 
 .about-bg{
@@ -51,6 +61,12 @@ p{
     text-align: center;
     margin: 0% 10%;
 }
+.recipies-bg{
+    /* background-image: url(images/recipe-image.png); */
+    /* background-image: url(images/35482\ blackened-salmon-landing-page-hero.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .one-third{
     width: 30%;
     padding: 20px;
@@ -63,9 +79,44 @@ p{
 }
 .one-third img{
     width: 100%;
+    border-radius: 15px;
+}
+
+.eshop-bg{
+    background-color: #d2322b;
+    color: white;
+    padding: 5% 0% 0% 10%;
+    margin-top: -50px;
+}
+
+#mac-app, #google-app{
+    width: 40%;
+}
+.shop-text{
+    text-align: center;
+}
+.location-bg{
+    /* background-image: url(images/promo-11.jpg); */
+    background-image: url(images/banner-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -50px;
+}
+.our-location{
+    padding: 10px;
+    margin: 5%;
+    border-radius: 20px;
+    text-align: center;
+}
+.our-location img{
+    width: 100%;
+    border-radius: 50px 0px;
+}
+.footer-bg img{
+    width: 15%;
 }
 .footer-bg{
-    background-color: black;
+    background-image: url(images/footer-bg.jpg);
     padding: 20px;
     color: white;
     text-align: center;
